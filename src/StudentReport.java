@@ -6,8 +6,10 @@ public class StudentReport {
         System.out.println("Edad: " + estudiante.getEdad());
         System.out.println("Carrera: " + estudiante.getCarrera());
         System.out.println("Estado: Matriculado");
-        System.out.println("==================================");
-    }
+        System.out.println("Institución: TECSUP");
+        System.out.println("==============================");
+        System.out.println("==============================");
+        }
 
     public static void main(String[] args) {
         StudentModel estudiante = new StudentModel(
@@ -19,4 +21,4 @@ public class StudentReport {
         StudentReport reporte = new StudentReport();
         reporte.generarReporte(estudiante);
     }
-}System.out.println("Institución: TECSUP");
+}
