@@ -19,4 +19,4 @@ public class StudentReport {
         StudentReport reporte = new StudentReport();
         reporte.generarReporte(estudiante);
     }
-}
+}System.out.println("Institución: TECSUP");
